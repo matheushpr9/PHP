@@ -1,7 +1,7 @@
 <?php
 
 echo "Hello World!\n";
-//obs: the "\n" skip the line
+//obs: the "\n" skip(break) the line
 $age = 22;
 echo "My age is " . $age .  "years old.\n\n";
 
