@@ -26,3 +26,12 @@ if($age >= 18){
 
 
 // boolean operators in PHP (and &&) and (or ||) 
+
+//ternary operator, basically an if / else on a single line, with the following syntax:
+
+$variable = $condition ? $valueIfTrue : $valueIfFalse;
+
+$age = 15;
+
+$message = $age < 18 ? "You are underage " : "you are of legal age";
+echo $message;
